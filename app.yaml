@@ -1,0 +1,18 @@
+name: OpenGPT-4o
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/OpenGPT-4o
+  original_url: https://huggingface.co/spaces/Chris4K/OpenGPT-4o
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
