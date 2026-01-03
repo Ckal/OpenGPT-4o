@@ -1,0 +1,16 @@
+transformers>=4.35.0
+datasets
+pillow
+numpy
+torch
+asyncio
+torchvision
+accelerate
+beautifulsoup4>=4.9
+requests>=2.20
+onnxruntime
+sentencepiece
+soxr
+pydub
+edge-tts
+gradio>=4.0.0
